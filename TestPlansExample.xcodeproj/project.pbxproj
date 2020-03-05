@@ -55,7 +55,7 @@
 		5F708A8C2410EBFB009800A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5F708A922410EC9F009800A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ja.strings; sourceTree = "<group>"; };
 		5F708A992410ECDA009800A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/en.strings; sourceTree = "<group>"; };
-		5F708A9E2410EE2F009800A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FCA81452411421D005C1886 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,7 +264,7 @@
 			children = (
 				5F708A662410DEF0009800A3 /* Base */,
 				5F708A8B2410EBFB009800A3 /* ja */,
-				5F708A9E2410EE2F009800A3 /* en */,
+				5FCA81452411421D005C1886 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

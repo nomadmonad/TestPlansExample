@@ -2,9 +2,18 @@
   "configurations" : [
     {
       "id" : "B18C8915-0875-40EE-9543-11B29BF13F20",
-      "name" : "Configuration 1",
+      "name" : "Japanese",
       "options" : {
-
+        "language" : "ja",
+        "region" : "JP"
+      }
+    },
+    {
+      "id" : "A5960E6E-457E-410A-A8DC-D80BB70DD155",
+      "name" : "United States",
+      "options" : {
+        "language" : "en",
+        "region" : "US"
       }
     }
   ],
