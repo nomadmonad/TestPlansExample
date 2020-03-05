@@ -14,6 +14,13 @@
 		5F708A692410DEF2009800A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F708A682410DEF2009800A3 /* Assets.xcassets */; };
 		5F708A6C2410DEF2009800A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F708A6A2410DEF2009800A3 /* LaunchScreen.storyboard */; };
 		5F708A772410DEF2009800A3 /* TestPlansExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F708A762410DEF2009800A3 /* TestPlansExampleTests.swift */; };
+		5F708A822410E102009800A3 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F708A812410E102009800A3 /* Calculator.swift */; };
+		5F708A832410E102009800A3 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F708A812410E102009800A3 /* Calculator.swift */; };
+		5F708A892410E96B009800A3 /* TestPlansExampleUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F708A882410E96B009800A3 /* TestPlansExampleUITest.swift */; };
+		5F708A902410EC9F009800A3 /* ja.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F708A932410EC9F009800A3 /* ja.strings */; };
+		5F708A912410EC9F009800A3 /* ja.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F708A932410EC9F009800A3 /* ja.strings */; };
+		5F708A972410ECDA009800A3 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F708A9A2410ECDA009800A3 /* en.strings */; };
+		5F708A982410ECDA009800A3 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F708A9A2410ECDA009800A3 /* en.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,17 @@
 		5F708A722410DEF2009800A3 /* TestPlansExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPlansExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F708A762410DEF2009800A3 /* TestPlansExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPlansExampleTests.swift; sourceTree = "<group>"; };
 		5F708A782410DEF2009800A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F708A812410E102009800A3 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		5F708A852410E6C4009800A3 /* addition.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = addition.xctestplan; sourceTree = "<group>"; };
+		5F708A862410E736009800A3 /* subtraction.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = subtraction.xctestplan; sourceTree = "<group>"; };
+		5F708A872410E7D5009800A3 /* allTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = allTests.xctestplan; sourceTree = "<group>"; };
+		5F708A882410E96B009800A3 /* TestPlansExampleUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPlansExampleUITest.swift; sourceTree = "<group>"; };
+		5F708A8A2410E9B3009800A3 /* UItests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UItests.xctestplan; sourceTree = "<group>"; };
+		5F708A8B2410EBFB009800A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		5F708A8C2410EBFB009800A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5F708A922410EC9F009800A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ja.strings; sourceTree = "<group>"; };
+		5F708A992410ECDA009800A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/en.strings; sourceTree = "<group>"; };
+		5F708A9E2410EE2F009800A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,9 @@
 				5F708A682410DEF2009800A3 /* Assets.xcassets */,
 				5F708A6A2410DEF2009800A3 /* LaunchScreen.storyboard */,
 				5F708A6D2410DEF2009800A3 /* Info.plist */,
+				5F708A812410E102009800A3 /* Calculator.swift */,
+				5F708A932410EC9F009800A3 /* ja.strings */,
+				5F708A9A2410ECDA009800A3 /* en.strings */,
 			);
 			path = TestPlansExample;
 			sourceTree = "<group>";
@@ -93,8 +114,13 @@
 		5F708A752410DEF2009800A3 /* TestPlansExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F708A8A2410E9B3009800A3 /* UItests.xctestplan */,
+				5F708A872410E7D5009800A3 /* allTests.xctestplan */,
+				5F708A862410E736009800A3 /* subtraction.xctestplan */,
+				5F708A852410E6C4009800A3 /* addition.xctestplan */,
 				5F708A762410DEF2009800A3 /* TestPlansExampleTests.swift */,
 				5F708A782410DEF2009800A3 /* Info.plist */,
+				5F708A882410E96B009800A3 /* TestPlansExampleUITest.swift */,
 			);
 			path = TestPlansExampleTests;
 			sourceTree = "<group>";
@@ -163,6 +189,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 5F708A532410DEF0009800A3;
 			productRefGroup = 5F708A5D2410DEF0009800A3 /* Products */;
@@ -181,8 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F708A6C2410DEF2009800A3 /* LaunchScreen.storyboard in Resources */,
+				5F708A902410EC9F009800A3 /* ja.strings in Resources */,
 				5F708A692410DEF2009800A3 /* Assets.xcassets in Resources */,
 				5F708A672410DEF0009800A3 /* Main.storyboard in Resources */,
+				5F708A972410ECDA009800A3 /* en.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F708A912410EC9F009800A3 /* ja.strings in Resources */,
+				5F708A982410ECDA009800A3 /* en.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F708A822410E102009800A3 /* Calculator.swift in Sources */,
 				5F708A642410DEF0009800A3 /* ViewController.swift in Sources */,
 				5F708A602410DEF0009800A3 /* AppDelegate.swift in Sources */,
 				5F708A622410DEF0009800A3 /* SceneDelegate.swift in Sources */,
@@ -210,6 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F708A892410E96B009800A3 /* TestPlansExampleUITest.swift in Sources */,
+				5F708A832410E102009800A3 /* Calculator.swift in Sources */,
 				5F708A772410DEF2009800A3 /* TestPlansExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +263,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				5F708A662410DEF0009800A3 /* Base */,
+				5F708A8B2410EBFB009800A3 /* ja */,
+				5F708A9E2410EE2F009800A3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -237,8 +273,25 @@
 			isa = PBXVariantGroup;
 			children = (
 				5F708A6B2410DEF2009800A3 /* Base */,
+				5F708A8C2410EBFB009800A3 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5F708A932410EC9F009800A3 /* ja.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F708A922410EC9F009800A3 /* ja */,
+			);
+			name = ja.strings;
+			sourceTree = "<group>";
+		};
+		5F708A9A2410ECDA009800A3 /* en.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F708A992410ECDA009800A3 /* en */,
+			);
+			name = en.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -308,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

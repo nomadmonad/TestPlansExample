@@ -1,20 +1,12 @@
-//
-//  ViewController.swift
-//  TestPlansExample
-//
-//  Created by Tsuyoshi Yamamoto on 2020/03/05.
-//  Copyright © 2020 Tsuyoshi Yamamoto. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let text = "前田日明は\(NSLocalizedString("maeda", comment: ""))"
+        label.text = text
     }
-
-
 }
 

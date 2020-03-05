@@ -1,34 +1,25 @@
-//
-//  TestPlansExampleTests.swift
-//  TestPlansExampleTests
-//
-//  Created by Tsuyoshi Yamamoto on 2020/03/05.
-//  Copyright © 2020 Tsuyoshi Yamamoto. All rights reserved.
-//
-
 import XCTest
 @testable import TestPlansExample
 
 class TestPlansExampleTests: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func test足し算できるかな() {
+        let calculator = Calculator(1, 2, .addition)
+        XCTAssertEqual(calculator.execute(), 3)
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func test引き算できるかな() {
+        let calculator = Calculator(1, 2, .subtraction)
+        XCTAssertEqual(calculator.execute(), -1)
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test掛け算できるかな() {
+        let calculator = Calculator(1, 2, .multiplication)
+        XCTAssertEqual(calculator.execute(), 2)
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func test割り算できるかな() {
+        let calculator = Calculator(2, 2, .division)
+        XCTAssertEqual(calculator.execute(), 1)
     }
-
 }

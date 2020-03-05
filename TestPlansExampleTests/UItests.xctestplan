@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "B18C8915-0875-40EE-9543-11B29BF13F20",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "TestPlansExampleTests"
+      ],
+      "target" : {
+        "containerPath" : "container:TestPlansExample.xcodeproj",
+        "identifier" : "5F708A712410DEF2009800A3",
+        "name" : "TestPlansExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}

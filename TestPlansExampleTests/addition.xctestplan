@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "B3B6E9FF-2378-426D-AB4D-325A6EC0043D",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TestPlansExample.xcodeproj",
+      "identifier" : "5F708A5B2410DEF0009800A3",
+      "name" : "TestPlansExample"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "TestPlansExampleTests\/test割り算できるかな()",
+        "TestPlansExampleTests\/test引き算できるかな()",
+        "TestPlansExampleTests\/test掛け算できるかな()",
+        "TestPlansExampleUITest"
+      ],
+      "target" : {
+        "containerPath" : "container:TestPlansExample.xcodeproj",
+        "identifier" : "5F708A712410DEF2009800A3",
+        "name" : "TestPlansExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}
